@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="primaryColor">#FFFFFF</color>
+    <color name="primaryDarkColor">#E0E0E0</color>
+
+    <color name="accentColor">#000000</color>
+
+    <color name="secondaryLightColor">#FFE6E6</color>
+    <color name="secondaryDarkColor">#757575</color>
+
+    <color name="primaryTextColor">#000000</color>
+    <color name="secondaryTextColor">#757575</color>
+
+    <color name="BeautifulRed">#EF0C25</color>
+
+
+    <!-- Text -->
+    <color name="text_black_primary">@color/black</color>
+    <color name="text_black_secondary">@color/dark_gray</color>
+    <color name="text_white_primary">@color/white</color>
+
+
+    <!--Dividers-->
+    <color name="divider">@color/light_gray</color>
+
+    <!--Icons-->
+    <color name="icon_white_active">@color/white</color>
+    <color name="icon_black_active">@color/black</color>
+
+    <!--Black and White-->
+    <color name="white">#FFF</color>
+    <color name="black">#000</color>
+    <color name="dark_gray">#8A000000</color>
+    <color name="light_gray">#1F000000</color>
 </resources>
