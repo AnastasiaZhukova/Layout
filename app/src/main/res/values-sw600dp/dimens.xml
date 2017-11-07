@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="nav_drawer_width">400dp</dimen>
+    <dimen name="nav_drawer_header_height">225dp</dimen>
+
+    <dimen name="margin_edge">16dp</dimen>
+    <dimen name="margin_content">72dp</dimen>
 </resources>

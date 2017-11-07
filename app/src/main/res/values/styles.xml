@@ -16,4 +16,8 @@
         <item name="android:textColorSecondary">@color/secondaryTextColor</item>
     </style>
 
+    <style name="TextAppearance.AppCompat.Body2.DrawerHeader">
+        <item name="android:textColor">@color/text_white_primary</item>
+    </style>
+
 </resources>
