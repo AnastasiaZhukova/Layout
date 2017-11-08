@@ -20,4 +20,10 @@
         <item name="android:textColor">@color/text_white_primary</item>
     </style>
 
+    <style name="DrawerRowTextStyle">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body2</item>
+        <item name="android:textColor">@color/text_black_secondary</item>
+        <item name="android:textSize">@dimen/text_size_body_14</item>
+    </style>
+
 </resources>
