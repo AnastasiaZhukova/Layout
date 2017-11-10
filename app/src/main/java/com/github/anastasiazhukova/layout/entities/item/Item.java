@@ -19,11 +19,9 @@ public class Item implements IItem {
         return mIconId;
     }
 
-
     public String getName() {
         return mName;
     }
-
 
     public String getPrice() {
         return mPrice;

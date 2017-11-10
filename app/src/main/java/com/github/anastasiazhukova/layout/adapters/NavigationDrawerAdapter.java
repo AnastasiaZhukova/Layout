@@ -19,8 +19,6 @@ public class NavigationDrawerAdapter extends RecyclerView.Adapter<NavigationDraw
     private LayoutInflater mLayoutInflater;
     private List<NavigationDrawerData> mNavigationDrawerDataList = Collections.EMPTY_LIST;
 
-
-
     public NavigationDrawerAdapter(final Context pContext, final List<NavigationDrawerData> pNavigationDrawerDataList) {
         mLayoutInflater = LayoutInflater.from(pContext);
         mNavigationDrawerDataList = pNavigationDrawerDataList;

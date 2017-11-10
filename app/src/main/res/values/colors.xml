@@ -12,10 +12,8 @@
     <color name="secondaryTextColor">#757575</color>
 
 
-
     <!-- Text -->
     <color name="text_white_primary">@color/white</color>
-
 
 
     <!--Black and White-->

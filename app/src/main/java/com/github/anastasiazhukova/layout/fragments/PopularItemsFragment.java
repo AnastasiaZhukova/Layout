@@ -10,10 +10,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.github.anastasiazhukova.layout.entities.item.IItemsList;
-import com.github.anastasiazhukova.layout.adapters.ItemAdapter;
-import com.github.anastasiazhukova.layout.entities.item.ItemsListFactory;
 import com.github.anastasiazhukova.layout.R;
+import com.github.anastasiazhukova.layout.adapters.ItemAdapter;
+import com.github.anastasiazhukova.layout.entities.item.IItemsList;
+import com.github.anastasiazhukova.layout.entities.item.ItemsListFactory;
 
 public class PopularItemsFragment extends Fragment {
 
@@ -31,12 +31,12 @@ public class PopularItemsFragment extends Fragment {
 
     @Nullable
     @Override
-    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
+    public View onCreateView(final LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
         mView = inflater.inflate(R.layout.fragment_popular_items, null);
 
         mRecyclerView = mView.findViewById(R.id.recycler_popular);
 
-        mItemsListFactory =new ItemsListFactory();
+        mItemsListFactory = new ItemsListFactory();
         mItemDataList = mItemsListFactory.createPopularItemsList();
         mItemAdapter = new ItemAdapter(getActivity(), mItemDataList);
 

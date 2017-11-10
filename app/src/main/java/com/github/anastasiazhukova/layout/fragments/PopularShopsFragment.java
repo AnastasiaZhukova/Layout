@@ -16,6 +16,7 @@ import com.github.anastasiazhukova.layout.entities.shop.IShopsList;
 import com.github.anastasiazhukova.layout.entities.shop.ShopsListFactory;
 
 public class PopularShopsFragment extends Fragment {
+
     private RecyclerView mRecyclerView;
     private ShopAdapter mShopAdapter;
 
@@ -30,12 +31,12 @@ public class PopularShopsFragment extends Fragment {
 
     @Nullable
     @Override
-    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
+    public View onCreateView(final LayoutInflater inflater, @Nullable final ViewGroup container, final Bundle savedInstanceState) {
         mView = inflater.inflate(R.layout.fragment_popular_shops, null);
 
         mRecyclerView = mView.findViewById(R.id.recycler_popular);
 
-        mShopsListFactory =new ShopsListFactory();
+        mShopsListFactory = new ShopsListFactory();
         mShopsList = mShopsListFactory.createPopularShopsList();
         mShopAdapter = new ShopAdapter(getActivity(), mShopsList);
 
