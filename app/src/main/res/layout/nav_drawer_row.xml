@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="8dp"
+    android:paddingTop="8dp">
+
+    <ImageView
+        android:id="@+id/rowIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/padding_16dp"
+        android:layout_marginStart="@dimen/padding_16dp"
+        tools:src="@drawable/ic_inbox"/>
+
+    <TextView
+        android:id="@+id/rowTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|start"
+        android:paddingLeft="@dimen/padding_32dp"
+        android:paddingStart="@dimen/padding_32dp"
+        android:paddingRight="@dimen/padding_32dp"
+        android:paddingEnd="@dimen/padding_32dp"
+        tools:text="Inbox"
+        style="@style/DrawerRowText"/>
+
+</LinearLayout>

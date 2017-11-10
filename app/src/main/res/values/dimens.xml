@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="nav_drawer_width">320dp</dimen>
+
+    <dimen name="nav_drawer_header_height">180dp</dimen>
+    <dimen name="nav_drawer_profile_image_size">64dp</dimen>
+
+    <dimen name="tab_size">56dp</dimen>
+
+    <dimen name="spacing_8">8dp</dimen>
+    <dimen name="spacing_56">56dp</dimen>
+    <dimen name="padding_16dp">16dp</dimen>
+    <dimen name="margin_4dp">4dp</dimen>
+    <dimen name="padding_32dp">32dp</dimen>
+</resources>

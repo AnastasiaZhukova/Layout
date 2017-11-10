@@ -1,0 +1,81 @@
+<resources>
+
+    <style name="AppTheme" parent="AppTheme.Base">
+
+    </style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/accentColor</item>
+    </style>
+
+    <style name="ToolbarStyle" parent="ThemeOverlay.AppCompat">
+        <item name="android:background">@color/primaryColor</item>
+        <item name="android:textColorPrimary">@color/primaryTextColor</item>
+        <item name="android:textColorSecondary">@color/secondaryTextColor</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Body2.DrawerHeader">
+        <item name="android:textColor">@color/text_white_primary</item>
+    </style>
+
+    <style name="DividerStyle">
+        <item name="android:background">@color/light_gray</item>
+    </style>
+
+    <style name="DrawerRowText">
+        <item name="android:textColor">@color/perfect_gray</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="ImageViewStyle">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginLeft">1dp</item>
+        <item name="android:layout_marginRight">1dp</item>
+        <item name="android:layout_marginTop">1dp</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="ImageViewStyle.ItemView">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginLeft">1dp</item>
+        <item name="android:layout_marginRight">1dp</item>
+        <item name="android:layout_marginTop">1dp</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">200dp</item>
+    </style>
+
+    <style name="TitleTextViewStyle">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="SubInfoTextViewStyle">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TitleTextViewStyle.ItemView">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="TitleTextViewStyle.ShopView">
+        <item name="android:layout_marginBottom">1dp</item>
+        <item name="android:layout_marginLeft">1dp</item>
+        <item name="android:layout_marginRight">1dp</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+
+    <style name="ImageViewStyle.ShopView">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginLeft">1dp</item>
+        <item name="android:layout_marginRight">1dp</item>
+        <item name="android:layout_marginTop">1dp</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">400dp</item>
+    </style>
+
+
+</resources>

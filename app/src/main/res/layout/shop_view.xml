@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_margin="@dimen/margin_4dp"
+              android:background="@color/light_gray"
+              android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/shop_image"
+        style="@style/ImageViewStyle.ShopView"
+        android:layout_gravity="center"
+        android:padding="4dp"
+        tools:src="@drawable/ic_shop"/>
+
+    <include layout="@layout/divider_horizontal"/>
+
+    <TextView
+        android:id="@+id/shop_name"
+        style="@style/TitleTextViewStyle.ShopView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:padding="4dp"
+        tools:text="Some shop name"/>
+
+</LinearLayout>
