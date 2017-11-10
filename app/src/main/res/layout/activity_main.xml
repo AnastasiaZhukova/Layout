@@ -8,23 +8,40 @@
     android:layout_height="match_parent"
     tools:context="com.github.anastasiazhukova.layout.MainActivity">
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
 
         <include
             android:id="@+id/app_bar"
             layout="@layout/app_bar"/>
 
-    </RelativeLayout>
+        <include
+            layout="@layout/tab_main"/>
+
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingEnd="@dimen/padding_16dp"
+            android:paddingLeft="@dimen/padding_16dp"
+            android:paddingRight="@dimen/padding_16dp"
+            android:paddingStart="@dimen/padding_16dp"
+            android:layout_margin="@dimen/margin_4dp"/>
+
+
+    </LinearLayout>
 
     <fragment
         android:id="@+id/fragment_drawer"
-        android:name="com.github.anastasiazhukova.layout.NavigationDrawer.NavigationDrawer"
+        android:name="com.github.anastasiazhukova.layout.navigationDrawer.NavigationDrawer"
         android:layout_width="@dimen/nav_drawer_width"
         android:layout_height="match_parent"
         android:layout_gravity="start"
         app:layout="@layout/fragment_navigation_drawer"
         tools:layout="@layout/fragment_navigation_drawer"/>
+
 
 </android.support.v4.widget.DrawerLayout>

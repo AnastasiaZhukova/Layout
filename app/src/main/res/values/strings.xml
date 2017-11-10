@@ -4,4 +4,10 @@
 
     <string name="drawer_opened">Opened</string>
     <string name="drawer_closed">Closed</string>
+    <string name="no_information_found">No information found</string>
+    <string name="popular_items">Popular Items</string>
+    <string name="popular_shops">Popular Shops</string>
+    <string name="recently_viewed">Recently viewed</string>
+    <string name="test_name">John Doe</string>
+
 </resources>

@@ -1,4 +1,4 @@
-package com.github.anastasiazhukova.layout.NavigationDrawer;
+package com.github.anastasiazhukova.layout.navigationDrawer;
 
 public class NavigationDrawerData {
 

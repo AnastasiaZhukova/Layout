@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DrawerRowText">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/perfect_gray</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+</resources>

@@ -12,8 +12,8 @@
         android:id="@+id/rowIcon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-
+        android:layout_marginLeft="@dimen/padding_16dp"
+        android:layout_marginStart="@dimen/padding_16dp"
         tools:src="@drawable/ic_inbox"/>
 
     <TextView
@@ -21,11 +21,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical|start"
-        android:fontFamily="sans-serif-medium"
-        android:paddingLeft="32dp"
-        android:paddingStart="32dp"
-        android:textColor="@color/perfect_gray"
-        android:textSize="14sp"
-        tools:text="Inbox"/>
+        android:paddingLeft="@dimen/padding_32dp"
+        android:paddingStart="@dimen/padding_32dp"
+        android:paddingRight="@dimen/padding_32dp"
+        android:paddingEnd="@dimen/padding_32dp"
+        tools:text="Inbox"
+        style="@style/DrawerRowText"/>
 
 </LinearLayout>

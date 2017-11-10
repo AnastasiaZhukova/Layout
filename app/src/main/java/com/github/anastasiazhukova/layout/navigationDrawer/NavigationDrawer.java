@@ -1,4 +1,4 @@
-package com.github.anastasiazhukova.layout.NavigationDrawer;
+package com.github.anastasiazhukova.layout.navigationDrawer;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -12,6 +12,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.github.anastasiazhukova.layout.R;
+import com.github.anastasiazhukova.layout.adapters.NavigationDrawerAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -82,7 +83,7 @@ public class NavigationDrawer extends Fragment {
         });
     }
 
-    static List<NavigationDrawerData> getNavigationDrawerData() {
+    private static List<NavigationDrawerData> getNavigationDrawerData() {
         List<NavigationDrawerData> navigationDrawerDataList = new ArrayList<>();
         final int[] icons = {R.drawable.ic_home,
                 R.drawable.ic_favorite,

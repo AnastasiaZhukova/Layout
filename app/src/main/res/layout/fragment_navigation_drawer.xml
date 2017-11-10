@@ -2,9 +2,8 @@
               xmlns:tools="http://schemas.android.com/tools"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:background="@color/white"
               android:orientation="vertical"
-              tools:context="com.github.anastasiazhukova.layout.NavigationDrawer.NavigationDrawer">
+              tools:context="com.github.anastasiazhukova.layout.navigationDrawer.NavigationDrawer">
 
     <include layout="@layout/navigation_drawer_header"/>
 

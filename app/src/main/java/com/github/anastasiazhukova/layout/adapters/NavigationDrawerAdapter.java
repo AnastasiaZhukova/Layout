@@ -1,4 +1,4 @@
-package com.github.anastasiazhukova.layout.NavigationDrawer;
+package com.github.anastasiazhukova.layout.adapters;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -9,14 +9,17 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.github.anastasiazhukova.layout.R;
+import com.github.anastasiazhukova.layout.navigationDrawer.NavigationDrawerData;
 
 import java.util.Collections;
 import java.util.List;
 
 public class NavigationDrawerAdapter extends RecyclerView.Adapter<NavigationDrawerAdapter.NavigationDrawerViewHolder> {
 
-    LayoutInflater mLayoutInflater;
-    List<NavigationDrawerData> mNavigationDrawerDataList = Collections.EMPTY_LIST;
+    private LayoutInflater mLayoutInflater;
+    private List<NavigationDrawerData> mNavigationDrawerDataList = Collections.EMPTY_LIST;
+
+
 
     public NavigationDrawerAdapter(final Context pContext, final List<NavigationDrawerData> pNavigationDrawerDataList) {
         mLayoutInflater = LayoutInflater.from(pContext);
@@ -26,8 +29,7 @@ public class NavigationDrawerAdapter extends RecyclerView.Adapter<NavigationDraw
     @Override
     public NavigationDrawerViewHolder onCreateViewHolder(final ViewGroup parent, final int viewType) {
         final View view = mLayoutInflater.inflate(R.layout.nav_drawer_row, parent, false);
-        final NavigationDrawerViewHolder navigationDrawerViewHolder = new NavigationDrawerViewHolder(view);
-        return navigationDrawerViewHolder;
+        return new NavigationDrawerViewHolder(view);
     }
 
     @Override
